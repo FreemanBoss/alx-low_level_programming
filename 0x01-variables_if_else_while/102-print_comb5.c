@@ -5,23 +5,23 @@
  */
 int main(void)
 {
-	int x, y;
+	int i, j;
 
-	for (x = 0; x <= 98; x++)
+	for (i = 0; i <= 99; i++)
 	{
-		for (y = x + 1; x <= 99; y++)
+		for (j = i + 1; j <= 99; j++)
 		{
-			putchar((x / 10) + '0');
-			putchar((x % 10) + '0');
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
 			putchar(' ');
-			putchar((y / 10) + '0');
-			putchar((y % 10) + '0');
+			putchar((j / 10) + '0');
+			putchar((j % 10) + '0');
 
-			if (x < 98 && y < 99)
-				continue;
-
-			putchar(',');
-			putchar(' ');
+			if (i < 98 || j < 99)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
