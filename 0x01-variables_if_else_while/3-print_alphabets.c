@@ -7,13 +7,13 @@
 int main(void)
 {
 	int x = 'a';
+	int y = 'A';
 
 	while (x <= 'z')
 	{
 		putchar(x);
 		x++;
 	}
-	int y = 'A';
 
 	while (y <= 'Z')
 	{
