@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_baue - prints jack baue timing
+ * jack_bauer - prints jack baue timing
  * Return - always 0
  */
 void jack_bauer(void)
@@ -15,7 +15,7 @@ void jack_bauer(void)
 			_putchar(a % 10 + 48);
 			_putchar(':');
 			_putchar(b / 10 + 48);
-			_putchar(b % 10 +48);
+			_putchar(b % 10 + 48);
 			_putchar('\n');
 		}
 	}
