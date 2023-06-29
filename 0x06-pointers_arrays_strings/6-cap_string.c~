@@ -1,0 +1,9 @@
+#include "main.h"
+
+/**
+ * cap_string - a function that capitalizes all words of a string.
+ * @str: the sring
+ * Return: first letter should be capitalized
+ */
+
+char *cap_string(char *str)
